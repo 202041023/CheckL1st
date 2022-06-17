@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="나의 하루 일과 점검"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            android:textAlignment="center"></TextView>
+
+        <Button
+            android:id="@+id/btnrice"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/rice"
+            android:text="하루 3번 식사를 하였는가?"
+            tools:ignore="TextContrastCheck"></Button>
+
+        <Button
+            android:id="@+id/btnwater"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/water"
+            android:text="일정량의 물을 마셨는가?"
+            tools:ignore="TextContrastCheck"></Button>
+
+        <Button
+            android:id="@+id/btnexercise"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/exercise"
+            android:text="일정시간 운동을 하였는가?"
+            tools:ignore="TextContrastCheck"></Button>
+
+        <Button
+            android:id="@+id/btnposture"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/posture"
+            android:text="바른 자세를 유지했는가?"
+            tools:ignore="TextContrastCheck"></Button>
+
+
+
+        <Button
+            android:id="@+id/btnhealth"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/medicine"
+            android:text="건강상태를 확인하였는가?"
+            tools:ignore="TextContrastCheck"></Button>
+
+        <Button
+            android:id="@+id/btnfeel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/heart"
+            android:text="오늘 행복하였는가?"
+            tools:ignore="TextContrastCheck"></Button>
+
+        <Button
+            android:id="@+id/btndiary"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:drawableLeft="@drawable/diary"
+            android:text="하루일기"
+            tools:ignore="TextContrastCheck"></Button>
+
+        <Button
+            android:id="@+id/btnresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#A9A9A9"
+            android:text="어플 평가하기"
+            tools:ignore="TextContrastCheck"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

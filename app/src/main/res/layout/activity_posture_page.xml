@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".posture_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="바른 자세 점검"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/stretching"
+            android:layout_margin="20dp"></ImageView>
+
+        <CheckBox
+            android:id="@+id/cb1p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="바른 자세를 유지하셨나요?"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"></CheckBox>
+
+        <EditText
+            android:id="@+id/et1p"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:hint="특별히 불편했던 점을 메모하세요."
+            android:layout_margin="20dp"></EditText>
+
+        <Button
+            android:id="@+id/btn1p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/purple_200"
+            android:text="정보 저장하기"
+            tools:ignore="TextContrastCheck"></Button>
+
+    </LinearLayout>
+</LinearLayout>

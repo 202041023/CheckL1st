@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reult_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv2d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="어플을 평가해주세요!"
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv1r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="전체적인 서비스에 만족하십니까?"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <RatingBar
+            android:id="@+id/rt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:isIndicator="false"
+            android:max="5"
+            android:numStars="5"
+            android:rating="2"
+            android:stepSize="0.5"></RatingBar>
+
+        <TextView
+            android:id="@+id/tv2r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="어플을 계속 사용하실 마음이 있으십니까?"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <RatingBar
+            android:id="@+id/rt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:isIndicator="false"
+            android:max="5"
+            android:numStars="5"
+            android:rating="2"
+            android:stepSize="0.5"></RatingBar>
+
+        <TextView
+            android:id="@+id/tv3r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="페이지 변환이 간편합니까?"
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <RatingBar
+            android:id="@+id/rt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:isIndicator="false"
+            android:max="5"
+            android:numStars="5"
+            android:rating="2"
+            android:stepSize="0.5"></RatingBar>
+
+        <TextView
+            android:id="@+id/tv4r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="개선이 필요한 점을 자유롭게 남겨주세요."
+            android:textColor="@color/purple_500"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/eidtt1"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_margin="10dp"
+            android:hint="일기를 적어보세요."></EditText>
+
+        <Button
+            android:id="@+id/btn1r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/purple_200"
+            android:text="평가 내용 저장하기"
+            tools:ignore="TextContrastCheck"></Button>
+
+
+
+    </LinearLayout>
+</LinearLayout>
